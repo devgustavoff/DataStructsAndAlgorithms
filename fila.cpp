@@ -33,7 +33,7 @@ void remove(int& posicao_Atual, string desistente, Pessoa fila[]){
             }
         }
         if(id == -1){
-            cout << "Essa pessoa não esta na fia" << endl;
+            cout << "Essa pessoa não esta na fila" << endl;
             return;
         } else{
             cout << desistente << " saiu da fila" << endl;
